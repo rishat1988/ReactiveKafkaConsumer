@@ -1,4 +1,4 @@
-package com.example.reactivekafkaproducer.dtos;
+package com.example.reactivekafkaconsumer;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -16,5 +16,4 @@ public class CaseDto {
     private String number;
     private String description;
     private LocalDateTime startTime;
-    List<CaseLogDto> caseLogDtoList;
 }
