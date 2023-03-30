@@ -1,0 +1,11 @@
+server:
+  port: 8091
+case-save: case-save
+topic:
+  name: case-save
+
+spring:
+  kafka:
+    consumer:
+      "auto-offset-reset": earliest
+      group-id: "default"
